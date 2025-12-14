@@ -1586,7 +1586,7 @@ element.style {
     }
 }
 
-@media (min-width:321px) and (max-width:380px){
+/* @media (min-width:321px) and (max-width:380px){
     .img-monterey > p > a ,.arrivals-head > button ,.img-btn > button,.img-btn ,.arrivals-head > p ,.together-up-content > div > button ,.img-monterey > h3,
 .new-exclusive > p ,.new-exclusive > h3{
     display: none;
@@ -1948,11 +1948,11 @@ element.style {
         right:97px !important;
     }
     
-}
+} */
 
 @media (max-width: 420px){
   .img-monterey > p > a ,.arrivals-head > button ,.img-btn > button,.img-btn ,.arrivals-head > p ,.together-up-content > div > button ,.img-monterey > h3,
-.new-exclusive > p ,.new-exclusive > h3{
+.new-exclusive > h3{
     display: none;
   }
  .kitchenAid-breville > div:nth-child(1) > div > button, .kitchenAid-breville > div:nth-child(2) > div > button{
@@ -1973,14 +1973,17 @@ element.style {
     font-size: 10px;
 }
 .full-img > .img_btns_container {
-     right:80px;
-    top: 35px;
-    gap: 10px;
-}
+        right:100px !important;
+        top: 6px !important;
+        gap: 10px;
+    }
 .arrivals-head {
     width: 100%;
     height:20px;
     padding-right: 30px;
+}
+.full-img > img {
+    height: 350px !important;
 }
 .arrival-arrow > .fa-angle-left, .hero-arrow > .fa-angle-left, .arrival-arrow > .fa-angle-right, .hero-arrow > .fa-angle-right,.together-up-content > h1,.caraway-container > div:nth-child(4) > p:nth-child(1),.caraway-container > div:nth-child(3) > p,.caraway-container > div:nth-child(2),.autumn-arrow > .fa-angle-left, .autumn-arrow > .fa-angle-right,.kitchen-cookware > div > h1 ,.appointment-section > div > button,.wedding-registry-section > div > div:nth-child(2) > button,.shopping-arrow > .fa-angle-left, .shopping-arrow > .fa-angle-right{
     display: none;
