@@ -1,6 +1,6 @@
 // import "./SignIn_Page.js"
-import { placeholder } from "../JS/Navbar_Footer.js";
-placeholder();
+// import { placeholder } from "../JS/Navbar_Footer.js";
+// placeholder();
 
 // scroll button
 const scrollBtn = document.querySelector(".scroll-btn");
@@ -20,24 +20,25 @@ window.scrollUp = function () {
   });
 };
 
-
-
 let arrivals = [
   {
     img: "../Utilities/img/arrival_img_1.webp",
     caption: "New Accent Chairs",
     price: "Starting at $899",
   },
+  
   {
     img: "../Utilities/img/arrival_img_2.webp",
     caption: "New Pillows",
     price: "Starting at $49.95",
   },
+
   {
     img: "../Utilities/img/arrival_img_3.webp",
     caption: "New Lighting",
     price: "Starting at $79.95",
   },
+
   {
     img: "../Utilities/img/arrival_img_4.webp",
     caption: "New End Tables",
