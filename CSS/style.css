@@ -2177,10 +2177,12 @@ h1{
         padding: 12px 17px;
         gap: 14px;
     }
-    p{
+    /* p{
       display:none;
-    }
-
+    } */
+   p{
+    font-size:1px;
+   }
 .fall-baking > div > h1 {
     font-size: 22px;
     margin-bottom: 10px;
