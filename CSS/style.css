@@ -1228,7 +1228,7 @@ main {
 .new-exclusive > p ,.new-exclusive > h3{
     display: none;
   }
- .kitchenAid-breville > div:nth-child(1) > div > button, .kitchenAid-breville > div:nth-child(2) > div > button{
+  .kitchenAid-breville > div:nth-child(1) > div > button, .kitchenAid-breville > div:nth-child(2) > div > button{
     display: none;
   }
   .full-img > .img_btns_container > a {
@@ -1239,16 +1239,50 @@ main {
     line-height: 1;
     margin-bottom: 5px;
 }
-
+.full-img > img{
+  height: 300px;
+}
+.smeg-mocha > img {
+    object-fit:fill;
+    height: 262px;
+}
+.smeg-mocha-heading {
+    position: absolute;
+    top: 100px;
+    left: 98px;
+    line-height: 1.5;
+}
+    .smeg-mocha-heading > h1 {
+        font-size: 15px !important;
+    }
+.get-together > a > img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.together-bottom-content {
+    bottom: 187px;
+    right: 24px;
+}
 .full-img > .img_btns_container > button {
     width:165px;
     padding: 10px;
     font-size: 10px;
 }
-.full-img > .img_btns_container {
-     right:80px;
-    top: 35px;
-    gap: 10px;
+    .full-img > .img_btns_container {
+        right: 70px;
+        top: 15px !important;
+        gap:6px !important;
+    }
+    .caraway-container > div:nth-child(3) > button {
+    padding: 7px 25px;
+    font-size: 15px;
+}
+
+    .caraway-container > a > img {
+    width: 100%;
+    height: 263px;
+    object-fit:cover;
 }
 .arrivals-head {
     width: 100%;
@@ -1272,13 +1306,12 @@ main {
     font-weight: 550;
     font-size: 14px;
 }
-.videos-btn > h1 {
-    font-size: 13px;
-}
+
 .videos-btn > button {
-    padding: 8px 30px;
-    font-size: 16px;
-}
+        padding: 8px 30px;
+        font-size: 13px !important
+        ;
+    }
 .smeg-mocha-heading > h1 {
     font-size: 12px;
     font-weight: 600;
@@ -1287,6 +1320,9 @@ main {
     margin-top: 13px;
     padding: 6px 25px;
     font-size: 12px;
+}
+h1{
+  font-size:20px;
 }
 .hero-card-head {
     font-size: 13px !important;
@@ -1305,21 +1341,46 @@ main {
 .get-together {
     padding-bottom:30px;
 }
-.kitchenAid-breville {
-    width: 100%;
-    padding: 12px 30px;
-    gap: 20px;
-}
+    .kitchenAid-breville {
+        width: 100%;
+        display: grid;
+        padding: 12px 30px;
+        margin: 60px 0px;
+        gap: 20px;
+    }
 .kitchenAid-breville > div:nth-child(1) > div > h1, .kitchenAid-breville > div:nth-child(2) > div > h1 {
-    font-size: 10px;
+    font-size:20px !important;
     line-height: 1.2;
     margin-bottom:0px;
 }
+    .bedroom-heading > button {
+        padding: 12px 12px;
+        font-size: 11px;
+    }
 
+.bedroom-heading > h1 {
+        font-size: 20px !important;
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+
+.bedroom-heading {
+    top: 32px;
+    left:25%;
+}
+.bedroom-furniture-section > a > img {
+    width: 100%;
+    height: 320px;
+    object-fit: fill;
+}
+.bedroom-furniture-section {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 25px;
+    position: relative;
+}
 .kitchenAid-breville > div:nth-child(2) > div:nth-child(3) {
-    left: 20px;
-    width: 60px;
-    font-size: 10px;
+   display: none;
 }
 .autumn-heading > p {
     font-size: 20px;
@@ -1335,32 +1396,83 @@ main {
 }
 
 .bedroom-heading > button {
-    padding: 14px 4px;
+    padding: 13px 19px !important;
     font-size: 10px;
 }
 .all-bedding > div > h1 {
     font-size: 15px;
 }
 .all-bedding > div > button {
-    padding: 14px 18px;
-    font-size: 11px;
+        padding: 13px 30px;
+        font-size: 11px;
+    }
+
+    .all-bedding > a > img {
+    width: 100%;
+    height: 350px;
+}
+.all-bedding > div {
+    position: absolute;
+    left: 50%;
+    top: 21%;
+    gap: 10px;
 }
 .kitchen-cookware > div > div > button {
     width: 92%;
     padding: 14px 14px;
     font-size: 8px;
     font-weight: 500;
-  
+}
+.kitchen-cookware > a > img {
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+}
+.kitchen-cookware {
+    width: 100%;
+    padding: 30px 18px;
+
+}
+.fall-baking > a > img {
+    width: 100%;
+    height: 331px;
 }
 .fall-baking > div > h1 {
     font-size: 22px;
     margin-bottom: 10px;
 }
-.fall-baking > div {
-    position: absolute;
-    top: 30px;
-    left: 32px;
+    .fall-baking > div {
+        top: 30px;
+        left: 33px !important;
 }
+.fall-baking > div > button {
+    font-size: 14px;
+}
+.tool-recipe {
+    width: 100%;
+    padding: 35px 7px;
+}
+.appointment-section {
+    width: 100%;
+    padding: 40px 15px;
+}
+.appointment-section > a > img {
+    width: 100%;
+    height: 350px;
+}
+    .appointment-section > div {
+        top: 14%;
+        font-size: 16px;
+        left: 20%;
+    }
+    .christmas-section > a > img {
+    width: 100%;
+    height: 350px;
+
+
+    }
+
+
 .rugs-video > div:nth-child(3) > h1 {
     font-size: 14px;
 }
@@ -1385,18 +1497,34 @@ main {
     line-height: 1.2;
 }
 .christmas-section > div > button {
-    padding: 10px 23px;
-    font-size: 14px;
+            padding: 10px 29px;
+        font-size:9px;
 }
 
 .christmas-section > div {
-    right: 70px;
+    right:80px !important;
     top: 30px;
-    display: flex;
-    justify-content: center;
 }
 .holiday-section > div > h1 {
     font-size: 20px;
+}
+.holiday-section > a > img {
+    width: 100%;
+    height: 244px;
+    object-fit:fill;
+}
+.holiday-section {
+    width: 100%;
+    padding: 20px 15px;
+}
+.holiday-section > div {
+        position: absolute;
+        top: 52%;
+        left: 19px;
+    }
+.wedding-registry-section > a > img {
+    height: 300px;
+    object-fit: cover;
 }
 
 .holiday-section > div > button {
@@ -1448,7 +1576,14 @@ main {
 element.style {
     font-size: 12px !important;
 }
-
+    .caraway-container > div:nth-child(4) {
+        position: absolute;
+        bottom: 40%;
+        left: 8%;
+    }
+.caraway-container > div:nth-child(3) {
+        right:97px !important;
+    }
 }
 
 @media (min-width:321px) and (max-width:380px){
