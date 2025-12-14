@@ -2009,10 +2009,24 @@ element.style {
     padding: 8px 30px;
     font-size: 16px;
 }
-.smeg-mocha-heading > h1 {
-    font-size: 12px;
-    font-weight: 600;
+    .smeg-mocha-heading > h1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+.smeg-mocha-heading {
+    position: absolute;
+    top: 62px;
+    left:122px;
+    line-height: 1;
+    color: white;
 }
+.new-exclusive > p {
+    display: none;
+
+}
+.smeg-mocha {
+        padding: 19px;
+    }
 .smeg-mocha-heading > button {
     margin-top: 13px;
     padding: 6px 25px;
@@ -2021,9 +2035,7 @@ element.style {
 .hero-card-head {
     font-size: 13px !important;
 }
-.smeg-mocha {
-    padding: 30px;
-}
+
 .together-bottom-content > div p:nth-child(2) {
     width: 250px;
     font-size: 13px;
