@@ -1586,7 +1586,7 @@ element.style {
     }
 }
 
-/* @media (min-width:321px) and (max-width:380px){
+@media (min-width:321px) and (max-width:380px){
     .img-monterey > p > a ,.arrivals-head > button ,.img-btn > button,.img-btn ,.arrivals-head > p ,.together-up-content > div > button ,.img-monterey > h3,
 .new-exclusive > p ,.new-exclusive > h3{
     display: none;
@@ -1602,13 +1602,13 @@ element.style {
     line-height: 1;
     margin-bottom: 5px;
 }
-.full-img > img{
-  height: 300px;
+.full-img > img {
+  height: 356px;
 }
 .smeg-mocha > img {
-    object-fit:fill;
-    height: 262px;
-}
+        object-fit: fill;
+        height: 327px;
+    }
 .smeg-mocha-heading {
     position: absolute;
     top: 100px;
@@ -1618,11 +1618,15 @@ element.style {
     .smeg-mocha-heading > h1 {
         font-size: 15px !important;
     }
-.get-together > a > img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-}
+ .get-together > a > img {
+        width: 100% !important;
+        height: 391px !important;
+        object-fit: cover !important;
+    }
+        .together-bottom-content {
+        right: 55px;
+        top: -30px !important;
+    }
 .together-bottom-content {
     bottom: 187px;
     right: 24px;
@@ -1641,12 +1645,11 @@ element.style {
     padding: 7px 25px;
     font-size: 15px;
 }
-
     .caraway-container > a > img {
-    width: 100%;
-    height: 263px;
-    object-fit:cover;
-}
+        width: 100%;
+        height: 896px !important;
+        object-fit: fill;
+    }
 .arrivals-head {
     width: 100%;
     height:20px;
@@ -1948,7 +1951,7 @@ element.style {
         right:97px !important;
     }
     
-} */
+} 
 
 @media (max-width: 420px){
   .img-monterey > p > a ,.arrivals-head > button ,.img-btn > button,.img-btn ,.arrivals-head > p ,.together-up-content > div > button ,.img-monterey > h3,
@@ -1982,9 +1985,7 @@ element.style {
     height:20px;
     padding-right: 30px;
 }
-.full-img > img {
-    height: 350px !important;
-}
+
 .arrival-arrow > .fa-angle-left, .hero-arrow > .fa-angle-left, .arrival-arrow > .fa-angle-right, .hero-arrow > .fa-angle-right,.together-up-content > h1,.caraway-container > div:nth-child(4) > p:nth-child(1),.caraway-container > div:nth-child(3) > p,.caraway-container > div:nth-child(2),.autumn-arrow > .fa-angle-left, .autumn-arrow > .fa-angle-right,.kitchen-cookware > div > h1 ,.appointment-section > div > button,.wedding-registry-section > div > div:nth-child(2) > button,.shopping-arrow > .fa-angle-left, .shopping-arrow > .fa-angle-right{
     display: none;
 }
@@ -2065,10 +2066,10 @@ h1{
     margin-bottom:0px;
 }
 .bedroom-furniture-section > a > img {
-    width: 100%;
-    height: 350px;
-    object-fit: fill;
-}
+        width: 100%;
+        height: 390px;
+        object-fit: fill;
+    }
 .kitchenAid-breville > div:nth-child(2) > div:nth-child(3) {
     left: 20px;
     width: 60px;
@@ -2096,10 +2097,10 @@ h1{
     top: 45px;
     left: 27%;
 }
-.all-bedding > a > img {
-    width: 100%;
-    height: 350px;
-}
+    .all-bedding > a > img {
+        width: 100%;
+        height: 413px;
+    }
 .all-bedding > div > h1 {
     font-size: 18px;
 }
@@ -2122,28 +2123,27 @@ h1{
     padding: 25px 19px;
 }
 .kitchen-cookware > a > img {
-    height: 250px;
-}
+        height: 368px;
+    }
 
 .caraway-container > a > img {
     width: 100%;
-    height: 275px !important;
+    height: 380px !important;
     object-fit: fill;
 }
-.fall-baking > a > img {
-    width: 100%;
-    height: 300px;
-}
+    .fall-baking > a > img {
+        width: 100%;
+        height: 379px;
+    }
 .appointment-section {
     width: 100%;
     padding: 20px 22px;
     position: relative;
 }
-.christmas-section > a > img {
-    width: 100%;
-    height: 350px;
-
-}
+    .christmas-section > a > img {
+        width: 100%;
+        height: 405px;
+    }
 .holiday-section {
     width: 100%;
     padding: 20px 13px;
@@ -2153,8 +2153,8 @@ h1{
     height: 180px;
 }
 
-.caraway-container > div:nth-child(4) {
-        bottom: 46%;
+    .caraway-container > div:nth-child(4) {
+        bottom: 59%;
         left: 12%;
     }
 .caraway-container > div:nth-child(3) > button {
@@ -2174,9 +2174,9 @@ h1{
 }
 
 .kitchenAid-breville > div > img {
-    width: 100%;
-    height: 250px;
-}
+        width: 100%;
+        height: 298px;
+    }
     .kitchenAid-breville {
         padding: 12px 17px;
         gap: 14px;
@@ -2243,7 +2243,7 @@ h1{
     }
     .wedding-registry-section > a > img {
     width: 100%;
-    height: 300px;
+    height: 360px;
     object-fit:cover;
 }
 .holiday-section > div > button {
@@ -2304,6 +2304,7 @@ element.style {
     right: 120px;
     gap:0px;
 }
+
 }
 
  @media (min-width: 421px) and (max-width: 440px){
