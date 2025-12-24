@@ -2164,7 +2164,7 @@ h1{
     gap: 10px;
 }
 .shopping-ways-heading > h1 {
-    font-size: 20px !important;
+    font-size: 17px !important;
 }
 .shopping-card-mainDiv > img ,.autumn-content > div > img {
     width: 268px;
@@ -2187,7 +2187,7 @@ h1{
     font-size: 15px;
 }
 .bedroom-heading > h1 {
-    font-size: 15px;
+    font-size: 12px !important;
     margin-bottom: 10px;
 }
 .bedroom-heading > button {
@@ -2200,7 +2200,7 @@ h1{
 }
 .all-bedding > div > h1 {
 
-    font-size: 15px;
+    font-size: 17px !important;
 }
 .all-bedding > div > button {
     padding: 10px 14px;
@@ -2217,7 +2217,7 @@ h1{
     height: 392px;
 }
 .kitchen-cookware > div > h1 {
-    font-size: 14px;
+    font-size: 14px !important;
     line-height: 1;
     margin-bottom:10px;
 }
@@ -2225,6 +2225,11 @@ h1{
     width: 90%;
     padding: 12px 0;
     font-size: 10px;
+}
+.kitchen-cookware {
+    width: 100%;
+    padding: 30px 20px;
+    position: relative;
 }
 .kitchen-cookware > div {
     top: 31%;
@@ -2235,7 +2240,7 @@ h1{
     height: 440px;
 }
 .fall-baking > div > h1 {
-    font-size: 21px;
+    font-size: 21px !important;
     margin-bottom: 10px;
 }
 .fall-baking > div > button {
@@ -2315,7 +2320,7 @@ h1{
     font-size: 16px;
 }
 h1{
-  font-size: 24px;
+  font-size: 19px !important;
 }
 .get-together > a > img {
         width: 100%;
@@ -2345,6 +2350,26 @@ h1{
 }
 .together-bottom-content > div p:nth-child(2) {
     font-size: 13px;
+}
+    .kitchenAid-breville > div:nth-child(1) > div > h1, .kitchenAid-breville > div:nth-child(2) > div > h1 {
+        font-size: 12px !important;
+        margin-bottom: 4px;
+    }
+    .kitchenAid-breville {
+    width: 100%;
+    padding: 40px 14px;
+    gap: 10px;
+}
+.bedroom-furniture-section {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.kitchenAid-breville > div:nth-child(1) > div, .kitchenAid-breville > div:nth-child(2) > div {
+    top: 20px;
+    left: 14px;
+    color: white;
 }
   }
 /*  */
