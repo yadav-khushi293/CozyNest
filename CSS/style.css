@@ -1222,6 +1222,289 @@ main {
 }
 /* <================= Responsive Start ================> */
 
+@media (max-width: 320px){
+
+  .full-img > img {
+    width: 100%;
+    height:440px;
+}
+.img-monterey,.arrivals-head,.new-exclusive > p ,.new-exclusive > h3,.caraway-container > div:nth-child(3) > p ,.caraway-container > div:nth-child(3) > button,.kitchenAid-breville > div:nth-child(1) > div > button, .kitchenAid-breville > div:nth-child(2) > div > button ,
+.kitchenAid-breville > div:nth-child(2) > div:nth-child(3),.tool-recipe-left > div > h1 ,.tool-recipe-left > div > button {
+ 
+  display: none;
+}
+.rugs-video > div:nth-child(3) > h1 {
+    font-size: 9px;
+}
+.rugs-video > div:nth-child(3) > button {
+    font-size: 9px;
+    padding: 10px 7px;
+}
+.rugs-video > div:nth-child(3) {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    gap: 7px;
+}
+.arrival-items > img,.heroCard-items > div > img {
+    width: 298px;
+    height: 409px;
+}
+.appointment-section > a > img {
+    width: 100%;
+    height: 320px;
+}
+.appointment-section > div > button {
+    padding: 10px 8px;
+    margin-top: 15px;
+    font-size: 8px;
+}
+.appointment-section > div > h1 {
+    font-size: 11px;
+    line-height: 1;
+    font-weight: 550;
+}
+.appointment-section > div {
+    position: absolute;
+    top: 18%;
+}
+.autumn-heading > p {
+    font-size: 18px !important;
+    white-space: 9px !important;
+    font-weight: 550;
+}
+.christmas-section > div > h1 {
+    font-size: 17px;
+    text-align: right;
+    line-height: 1.2;
+}
+.christmas-section > div > button {
+    padding: 7px 19px;
+    font-size: 10px;
+}
+.holiday-section > div > h1 {
+    font-size: 12px;
+}
+.holiday-section > div > button {
+    padding: 6px 21px;
+    font-size: 12px;
+}
+.christmas-section > a > img {
+    width: 100%;
+    height: 370px;
+}
+.holiday-section > a > img {
+    width: 100%;
+    height: 250px;
+}
+.holiday-section > div {
+    position: absolute;
+    top: 42%;
+    right: 26%;
+    gap: 11px;
+}
+.wedding-registry-section > a > img {
+    width: 100%;
+    height: 400px;
+}
+.wedding-registry-section > div > div:nth-child(1) > h1 {
+    font-size: 2.1rem !important;
+}
+.wedding-registry-section > div > div:nth-child(1) > h3 ,.wedding-registry-section > div > div:nth-child(2) > h2 {
+    font-size: 17px !important;
+}
+.wedding-registry-section > div {
+    position: absolute;
+    top:10% !important;
+    left: 5%;
+    gap: 10px;
+}
+.shopping-ways-heading > h1 {
+    font-size: 20px !important;
+}
+.shopping-card-mainDiv > img ,.autumn-content > div > img {
+    width: 268px;
+    height: 383px;
+}
+.arrival-arrow > .fa-angle-left, .hero-arrow > .fa-angle-left, .arrival-arrow > .fa-angle-right, .hero-arrow > .fa-angle-right,.hosting-arrow > .fa-angle-left, .hosting-arrow > .fa-angle-right,.autumn-arrow > .fa-angle-left, .autumn-arrow > .fa-angle-right,.shopping-arrow > .fa-angle-left, .shopping-arrow > .fa-angle-right {
+    width: 36px;
+    height: 42px;
+    font-size: 22px;
+}
+.wedding-registry-section > div > div:nth-child(2) > button {
+    margin-top: 20px !important;
+    font-size: 9px !important;
+}
+.arrival-items > h3 {
+    font-weight: 550;
+    font-size: 15px;
+}
+.arrival-items > p {
+    font-size: 15px;
+}
+.bedroom-heading > h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.bedroom-heading > button {
+    padding: 10px 3px;
+    font-size: 10px;
+}
+.all-bedding > a > img {
+    width: 100%;
+    height: 450px;
+}
+.all-bedding > div > h1 {
+
+    font-size: 15px;
+}
+.all-bedding > div > button {
+    padding: 10px 14px;
+    font-size: 13px;
+}
+.all-bedding > div {
+    position: absolute;
+    left: 50%;
+    top: 19%;
+    gap: 8px;
+}
+.kitchen-cookware > a > img {
+    width: 100%;
+    height: 392px;
+}
+.kitchen-cookware > div > h1 {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom:10px;
+}
+.kitchen-cookware > div > div > button {
+    width: 90%;
+    padding: 12px 0;
+    font-size: 10px;
+}
+.kitchen-cookware > div {
+    top: 31%;
+    left: 50%;
+}
+.fall-baking > a > img {
+    width: 100%;
+    height: 440px;
+}
+.fall-baking > div > h1 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.fall-baking > div > button {
+    padding: 8px 41px;
+    font-size: 16px;
+}
+.fall-baking > div {
+    top: 30px;
+    left: 44px;
+}
+.bedroom-furniture-section > a > img {
+    width: 100%;
+    height: 400px;
+}
+.hosting-heading > p {
+    font-size: 19px;
+    font-weight: 550;
+}
+.caraway-container > div:nth-child(4) > p:nth-child(2) {
+    margin-top:2px;
+    font-size: 14px;
+}
+.kitchenAid-breville > div > img {
+    width: 100%;
+    height: 300px;
+}
+.kitchenAid-breville > div:nth-child(1) > div > h1, .kitchenAid-breville > div:nth-child(2) > div > h1 {
+    font-size: 13px;
+    margin-bottom:4px;
+}
+.caraway-container > div:nth-child(4) > p:nth-child(1) {
+    font-size: 15px;
+}
+.caraway-container > a > img {
+    width: 100%;
+    height: 400px;
+}
+.full-img > .img_btns_container > a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.full-img > .img_btns_container > button {
+    width: 153px;
+    font-size: 11px;
+}
+.img-btn > button {
+    font-size: 13px;
+    font-weight: 500;
+}
+.videos-btn > h1 {
+    font-size: 16px;
+}
+.videos-btn > button {
+    padding: 8px 27px;
+    font-size: 11px;
+}
+.smeg-mocha > img {
+    width: 100%;
+    height: 450px;
+}
+.smeg-mocha {
+    width: 100%;
+    padding: 35px 20px;
+    position: relative;
+}
+.smeg-mocha-heading > h1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.smeg-mocha-heading > button {
+    margin-top:15px;
+    padding: 5px 29px;
+    font-size: 16px;
+}
+h1{
+  font-size: 24px;
+}
+.get-together > a > img {
+        width: 100%;
+        height:450px;
+    }
+.together-up-content > h1 {
+    font-size: 14px;
+    padding-left: 20px;
+}
+.together-up-content > div {
+    display: grid;
+    gap:0px;
+}
+.together-up-content > div > button {
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 6px 14px;
+}
+.together-up-content {
+    top:50px;
+    left: 17%;
+}
+.together-bottom-content > div p:nth-child(1) {
+    font-size: 13px;
+    font-weight: 550;
+    margin-bottom:2px;
+}
+.together-bottom-content > div p:nth-child(2) {
+    font-size: 13px;
+}
+
+}
+/*  */
 @media (min-width: 421px) and (max-width: 440px){
   .full-img > .img_btns_container > a {
     font-size: 14px;
@@ -1258,6 +1541,11 @@ main {
     font-size: 11px;
 
 }
+.shopping-card-mainDiv > img {
+    width: 359px;
+    height: 406px;
+}
+
 .arrivals-head > p {
     text-align: center;
     flex: 1;
@@ -1399,10 +1687,10 @@ main {
     top: 15%;
     left: 10%;
 }
-.christmas-section > a > img {
-    width: 100%;
-    height: 450px;
-}
+    .christmas-section > a > img {
+        width: 100%;
+        height: 402px;
+    }
 .christmas-section > div > h1 {
     font-size: 18px;
     text-align: right;
@@ -1419,14 +1707,14 @@ main {
 }
 .holiday-section > div > button {
     padding: 5px 19px;
-    font-size: 13 px;
+    font-size: 13px;
     font-weight: 550;
 }
 .wedding-registry-section > a > img {
-    width: 100%;
-    height: 540px;
-    object-fit: fill;
-}
+        width: 100%;
+        height: 465px;
+        object-fit: fill;
+    }
 .wedding-registry-section > div > div:nth-child(2) > h2 {
     font-size: 15px;
     text-align: center;
@@ -1443,8 +1731,8 @@ main {
     font-size: 12px;
 }
 .shopping-ways-heading > h1 {
-    font-size: 25px;
-    word-spacing: 4px;
+    font-size: 22px !important;
+    word-spacing:1px;
 }
 .wedding-registry-section > div {
     position: absolute;
@@ -1461,11 +1749,11 @@ main {
     width: 100%;
     height: 400px;
 }
-.holiday-section {
-    width: 100%;
-    padding: 31px 13px;
-    position: relative;
-}
+    .holiday-section {
+        width: 100%;
+        padding: 31px 0px;
+        position: relative;
+    }
 .appointment-section {
     width: 100%;
     padding: 40px 17px;
@@ -1514,6 +1802,10 @@ main {
 .new-exclusive > p {
     font-size: 13px;
 }
+.autumn-content > div > img {
+    width: 359px;
+    height: 350px;
+}
 h1{
   font-size: 25px;
 }
@@ -1552,19 +1844,25 @@ h1{
 }
 .together-bottom-content > div p:nth-child(2) {
     width: 250px;
-    font-size: 11px;
+    font-size: 13px;
+    text-align: center;
 }
-.together-bottom-content {
+.ogether-bottom-content {
     position: absolute;
     bottom: 100px;
     right: 6px;
+}
+.arrival-items > img {
+    width: 365px;
+    height: 370px;
+    transition: all 0.3s ease;
 }
 .hosting-heading > p {
     font-size: 22px;
 }
 .caraway-container > a > img {
-  height: 560px;
-}
+        height: 412px;
+    }
 .caraway-container > div:nth-child(3) > p {
     font-size: 12px;
     line-height: 1.2;
@@ -1946,8 +2244,9 @@ h3{
     object-fit: cover;
 }
 .holiday-section > a > img {
-    width: 100%;
-    height: 300px;
+        width: 100%;
+        height: 306px;
+    }
 }
 .wedding-registry-section > div > div:nth-child(2) > h2 {
     font-size: 21px;
@@ -1978,7 +2277,7 @@ h3{
     white-space:9px !important;
     font-weight: 550;
 }
-    }
+  
 
     @media (min-width: 841px) and (max-width: 1080px){
       .smeg-mocha-heading {
