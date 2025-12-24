@@ -1223,48 +1223,48 @@ main {
 /* <================= Responsive Start ================> */
 @media (min-width:321px) and (max-width:380px){
    .full-img > img {
-    width: 100%;
-    height:440px;
+    width: 100% !important;
+    height:440px !important;
 }
 .img-monterey,.arrivals-head,.new-exclusive > p ,.new-exclusive > h3,.caraway-container > div:nth-child(3) > p ,.caraway-container > div:nth-child(3) > button,.kitchenAid-breville > div:nth-child(1) > div > button, .kitchenAid-breville > div:nth-child(2) > div > button ,
 .kitchenAid-breville > div:nth-child(2) > div:nth-child(3),.tool-recipe-left > div > h1 ,.tool-recipe-left > div > button {
  
-  display: none;
+  display: none !important;
 }
 .rugs-video > div:nth-child(3) > h1 {
-    font-size: 9px;
+    font-size: 9px !important;
 }
 .rugs-video > div:nth-child(3) > button {
-    font-size: 9px;
-    padding: 10px 7px;
+    font-size: 9px !important;
+    padding: 10px 7px !important;
 }
 .rugs-video > div:nth-child(3) {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    gap: 7px;
+    position: absolute !important;
+    top: 47% !important;
+    left: 50% !important;
+    gap: 7px !important;
 }
 .arrival-items > img,.heroCard-items > div > img {
-    width: 298px;
-    height: 409px;
+    width: 298px !important;
+    height: 409px !important;
 }
 .appointment-section > a > img {
-    width: 100%;
-    height: 320px;
+    width: 100% !important;
+    height: 320px !important;
 }
 .appointment-section > div > button {
-    padding: 10px 8px;
-    margin-top: 15px;
-    font-size: 8px;
+    padding: 10px 8px !important;
+    margin-top: 15px !important;
+    font-size: 8px !important;
 }
 .appointment-section > div > h1 {
-    font-size: 11px;
-    line-height: 1;
-    font-weight: 550;
+    font-size: 11px !important;
+    line-height: 1 !important;
+    font-weight: 550 !important;
 }
 .appointment-section > div {
-    position: absolute;
-    top: 18%;
+    position: absolute !important;
+    top: 18% !important; 
 }
 .autumn-heading > p {
     font-size: 18px !important;
@@ -1272,34 +1272,34 @@ main {
     font-weight: 550;
 }
 .christmas-section > div > h1 {
-    font-size: 17px;
+    font-size: 17px !important;
     text-align: right;
     line-height: 1.2;
 }
 .christmas-section > div > button {
-    padding: 7px 19px;
-    font-size: 10px;
+    padding: 7px 19px !important;
+    font-size: 10px !important;
 }
 .holiday-section > div > h1 {
-    font-size: 12px;
+    font-size: 12px !important;
 }
 .holiday-section > div > button {
-    padding: 6px 21px;
-    font-size: 12px;
+    padding: 6px 21px !important;
+    font-size: 12px !important;
 }
 .christmas-section > a > img {
-    width: 100%;
-    height: 370px;
+    width: 100% !important;
+    height: 370px !important;
 }
 .holiday-section > a > img {
-    width: 100%;
-    height: 250px;
+    width: 100% !important;
+    height: 250px !important;
 }
 .holiday-section > div {
     position: absolute;
-    top: 42%;
-    right: 26%;
-    gap: 11px;
+    top: 42% !important;
+    right: 26% !important;
+    gap: 11px !important;
 }
 .wedding-registry-section > a > img {
     width: 100%;
@@ -1428,77 +1428,77 @@ main {
     height: 400px;
 }
 .full-img > .img_btns_container > a {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: right;
-    line-height: 1;
-    margin-bottom: 5px;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-align: right !important;
+    line-height: 1 !important;
+    margin-bottom: 5px !important;
 }
 .full-img > .img_btns_container > button {
-    width: 153px;
-    font-size: 11px;
+    width: 153px !important;
+    font-size: 11px !important;
 }
 .img-btn > button {
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 13px !important;
+    font-weight: 500 !important;
 }
 .videos-btn > h1 {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 .videos-btn > button {
-    padding: 8px 27px;
-    font-size: 11px;
+    padding: 8px 27px !important;
+    font-size: 11px !important;
 }
 .smeg-mocha > img {
-    width: 100%;
-    height: 450px;
+    width: 100% !important;
+    height: 450px !important;
 }
 .smeg-mocha {
-    width: 100%;
-    padding: 35px 20px;
-    position: relative;
+    width: 100% !important;
+    padding: 35px 20px !important;
+    position: relative !important;
 }
 .smeg-mocha-heading > h1 {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 16px !important;
+    font-weight: 600 !important;
 }
 .smeg-mocha-heading > button {
-    margin-top:15px;
-    padding: 5px 29px;
-    font-size: 16px;
+    margin-top:15px!important;
+    padding: 5px 29px !important;
+    font-size: 16px!important;
 }
 h1{
-  font-size: 24px;
+  font-size: 24px!important;
 }
 .get-together > a > img {
-        width: 100%;
-        height:450px;
+        width: 100% !important;
+        height:450px !important;
     }
 .together-up-content > h1 {
-    font-size: 14px;
-    padding-left: 20px;
+    font-size: 14px !important;
+    padding-left: 20px !important;
 }
 .together-up-content > div {
-    display: grid;
-    gap:0px;
+    display: grid !important;
+    gap:0px !important;
 }
 .together-up-content > div > button {
-    margin-top: 10px;
-    font-size: 13px;
-    padding: 6px 14px;
+    margin-top: 10px!important ;
+    font-size: 13px !important;
+    padding: 6px 14px !important;
 }
 .together-up-content {
-    top:50px;
-    left: 17%;
+    top:50px !important;
+    left: 17% !important;
 }
 .together-bottom-content > div p:nth-child(1) {
-    font-size: 13px;
-    font-weight: 550;
-    margin-bottom:2px;
+    font-size: 13px !important;
+    font-weight: 550 !important;
+    margin-bottom:2px !important;
 }
 .together-bottom-content > div p:nth-child(2) {
-    font-size: 13px;
+    font-size: 13px !important;
 }
 
 
