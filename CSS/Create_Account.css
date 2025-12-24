@@ -198,3 +198,133 @@ main {
   font-size: 10px;
   color: red;
 }
+
+@media (min-width: 481px) and (max-width: 840px){
+  .signUp-form {
+    width:80%;
+    padding: 40px 40px;
+}
+}
+ @media (min-width: 421px) and (max-width:440px){
+    .signUp-form {
+    width:95%;
+    padding: 40px 40px;
+}
+ }
+ @media(min-width:320px){
+      .signUp-form {
+    width:95%;
+    padding: 40px 40px;
+}
+.account-heading > h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.account-heading > p {
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.7;
+}
+.input-box > input {
+    width: 100%;
+    padding: 10px 8px;
+    outline: none;
+    font-size: 13px;
+}
+.input-box > div > label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#signup_btn {
+    margin-bottom: 10px;
+    width: 97%;
+    padding: 10px;
+    font-size: 13px;
+}
+#term_condition {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.btn-container > div > input {
+    padding: 5px 12px;
+    background-color: black;
+}
+ }
+  @media (max-width: 420px){
+         .signUp-form {
+    width:95%;
+    padding: 40px 40px;
+}
+.account-heading > h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.account-heading > p {
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.7;
+}
+.input-box > input {
+    width: 100%;
+    padding: 10px 8px;
+    outline: none;
+    font-size: 13px;
+}
+.input-box > div > label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#signup_btn {
+    margin-bottom: 10px;
+    width: 97%;
+    padding: 10px;
+    font-size: 13px;
+}
+#term_condition {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.btn-container > div > input {
+    padding: 5px 12px;
+    background-color: black;
+}
+  }
+   @media (min-width:321px) and (max-width:380px){
+         .signUp-form {
+    width:95%;
+    padding: 40px 40px;
+}
+.account-heading > h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.account-heading > p {
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.7;
+}
+.input-box > input {
+    width: 100%;
+    padding: 10px 8px;
+    outline: none;
+    font-size: 13px;
+}
+.input-box > div > label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#signup_btn {
+    margin-bottom: 10px;
+    width: 97%;
+    padding: 10px;
+    font-size: 13px;
+}
+#term_condition {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.btn-container > div > input {
+    padding: 5px 12px;
+    background-color: black;
+}
+   }

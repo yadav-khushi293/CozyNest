@@ -156,3 +156,79 @@
   background-color: black;
   cursor: pointer;
 }
+
+@media (min-width: 481px) and (max-width: 840px){
+  .signIn-details {
+    width: 97%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+}
+@media (min-width: 421px) and (max-width:440px){
+  .signIn-content {
+    display: grid;
+    gap:0px;
+}
+.signIn-details {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-in-details ,.create-account{
+    width: 95%;
+    gap: 8px;
+}
+
+}
+
+@media (max-width: 320px){
+  .signIn-content {
+    display: grid;
+    gap:0px;
+}
+.signIn-details {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-in-details ,.create-account{
+    width:100%;
+    gap: 8px;
+}
+
+}
+@media (min-width:321px) and (max-width:380px){
+   .signIn-content {
+    display: grid;
+    gap:0px;
+}
+.signIn-details {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-in-details ,.create-account{
+    width:100%;
+    gap: 8px;
+}
+}
+@media(min-width:420px){
+   .signIn-content {
+    display: grid;
+    gap:0px;
+}
+.signIn-details {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-in-details ,.create-account{
+    width:100%;
+    gap: 8px;
+}
+}
