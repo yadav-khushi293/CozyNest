@@ -1,6 +1,6 @@
-// import "./SignIn_Page.js"
-// import { placeholder } from "../JS/Navbar_Footer.js";
-// placeholder();
+import "./SignIn_Page.js"
+import { placeholder } from "../JS/Navbar_Footer.js";
+placeholder();
 
 // scroll button
 const scrollBtn = document.querySelector(".scroll-btn");
