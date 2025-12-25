@@ -1,5 +1,5 @@
-import { placeholder } from "../JS/Navbar_Footer.js";
-placeholder();
+// import { placeholder } from "../JS/Navbar_Footer.js";
+// placeholder();
 
 
 // const fetchApi = async () => {
